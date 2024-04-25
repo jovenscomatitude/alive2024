@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: california;
+    src: url(one-day.otf);
+}
+
+@font-face {
+    font-family: bebas;
+    src: url(Bebas.otf);
+}
+
+body{
+    background: url(back.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.link-bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 40px auto;
+    gap: 20px;
+}
+
+.link-bio img{
+    width: 150px;
+    height: 150px;
+    border: solid 3px rgb(162,209,244);
+    border-radius: 50%;
+}
+
+.link-bio h1{
+    font-size: 40px;
+}
+
+.link-bio a {
+    background: url(back2.gif) no-repeat;
+    color: white;
+    padding: 30px;
+    width: 300px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid 2px white;
+    border-radius: 10px;
+}
+
+.link-bio a:hover {
+    background-color: rgb(162,209,244);
+}
+
+.titulo {
+    text-align: center;
+    font-family: california;
+}
+
+.titulo1 {
+    text-align: center;
+    font-family: bebas;
+}
+
+.rodape {
+    text-align: center;
+}
