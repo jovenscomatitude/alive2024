@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: california;
+    font-family: oneday;
     src: url(one-day.otf);
 }
 
@@ -64,7 +64,7 @@ body{
 
 .titulo {
     text-align: center;
-    font-family: california;
+    font-family: oneday;
 }
 
 .titulo1 {
