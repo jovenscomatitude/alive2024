@@ -16,6 +16,11 @@
     src: url(Bebas.otf);
 }
 
+@font-face {
+    font-family: coluna;
+    src: url(Coluna.otf);
+}
+
 body{
     background: url(back.jpeg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -70,6 +75,13 @@ body{
 .titulo1 {
     text-align: center;
     font-family: bebas;
+}
+
+.titulo2 {
+    text-align: center;
+    font-family: coluna;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000;
 }
 
 .rodape {
